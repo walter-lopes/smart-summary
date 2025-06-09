@@ -65,3 +65,21 @@ npm run dev       # Starts development server on http://localhost:3000
     // handle response ...
   };
 
+
+## Architecture
+
+### Data Flow
+
+
+- User submits text from the frontend UI
+
+- Frontend sends the text to FastAPI via a POST request
+
+- Backend streams summary tokens from OpenAI
+
+- Backend forwards the stream to the frontend via Server-Sent Events (SSE)
+
+- Frontend appends each chunk to the UI in real time
+
+
+
