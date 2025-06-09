@@ -40,6 +40,7 @@ cd frontend
 npm install       # Installs Node.js dependencies
 npm run dev       # Starts development server on http://localhost:3000
 
+```
 
 ## 💡 Ideas for Future Improvements
 
